@@ -118,37 +118,54 @@ nav button
 }
 section .content
 {
-    font-weight: bold; 
-    color:#01778b;
-    align-items: center;
+
+    text-align: center;
+    color:#000000;
     margin: 0 auto;
     display: flex;
     width: 100%;
-    padding:30px;
+    padding:50px;
 }
 
 section .content button
 {
     border-radius: 3em;
-    padding: 0.7em;
+    padding: 1em;
     border-color:#01778b;
     cursor: pointer;   
     font-weight: bold; 
 }
 section .content .buscar
 {
-    padding-left: 20em;
+    text-align: center;
+    padding:8em;
     border-radius: 1em;
     padding: 0.7em;
     border-color:#01778b;
     cursor: pointer;   
     font-weight: bold; 
 }
+section .content .search
+{
+    font-size: 34px;
+    padding-bottom:1em;
+}
+section .content .search p
+{
+    font-size: 15px;
+    padding: 1em;
+}
 
+section .content .search p h2
+{
+    font-size: 30px;
+
+}
 
 #carouselExampleInterval
 {
-    max-width: 900px;
+    max-width: 1000px;
+
     align-items: center;
     margin: 0 auto;
     display: flex;
