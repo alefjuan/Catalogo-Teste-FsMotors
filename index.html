@@ -14,27 +14,46 @@
 
 <body>
 	<header>
-		<div class="content">
-			<nav>
-				<img src="images/car.png" />
-				<p class="marca">FSmotorSports</p>
-				<ul>
-					<li>
-						<a href="">Purchase</a>
-						<a href="">Sell</a>
-						<a href="">Consortium</a>
-						<a href="">About</a>
-						<a href="">Contact</a>
-					</li>
-				</ul>
-				<button>Login or Register</button>
-				<div class="redes">
-					<img src="images/instagram.png" />
-					<img src="images/facebook.png" />
-				</div>
-			</nav>
-		</div>
-	</header>
+	<!-- retirei a logo na navbar porque mais atrapalhava do que ajudava na responsividade
+	creio que o tamanho da imagem zuou tudo, então se vc quiser add ela dnv da uma olhada
+	no tamanho dela -->
+  <div class="content">
+    <nav class="navbar navbar-expand-md navbar-light" id="navbar">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+        <span class="marca">FSmotorSports</span>
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav custom-navbar-width">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Purchase</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sell</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Consortium</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <button class="mx-3">Login or Register</button>
+        <div class="redes">
+          <img src="images/instagram.png" />
+          <img src="images/facebook.png" />
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
+
+
 	<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-inner">
 			<div class="carousel-item active" data-bs-interval="2000">
@@ -252,6 +271,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
 		crossorigin="anonymous"></script>
+		<script src="JS/scripts.js"></script>
 </body>
 
 </html>

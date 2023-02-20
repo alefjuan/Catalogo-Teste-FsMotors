@@ -190,3 +190,13 @@ section .vendas .card
     margin: 15px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.07);
 }
+
+.collapse {
+    background-color: rgb(243, 243, 243);
+     z-index: 1000;
+     width: 20px;
+}
+ .custom-navbar-width {
+    margin-left: auto;
+   
+}
