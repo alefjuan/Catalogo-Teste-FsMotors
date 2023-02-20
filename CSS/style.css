@@ -184,7 +184,6 @@ section .vendas
 }
 section .vendas .card
 {
-    border-radius: 10px;
     cursor:pointer;
     width: 18rem; 
     margin: 15px;
@@ -198,5 +197,4 @@ section .vendas .card
 }
  .custom-navbar-width {
     margin-left: auto;
-   
 }
