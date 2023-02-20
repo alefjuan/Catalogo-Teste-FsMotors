@@ -192,4 +192,7 @@ section .vendas .card
 {
     border-radius: 10px;
     cursor:pointer;
+    width: 18rem; 
+    margin: 15px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.07);
 }
